@@ -3,12 +3,20 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import FirstComponents from './components/FirstComponents'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+
+    <div className='card'>
+      {/* Importando compontentes*/} 
+  
+      <FirstComponents/>
+
+      </div> 
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
@@ -27,8 +35,7 @@ function App() {
         >
           Count is {count}
         </button>
-        <p className='hello'>Hello World</p>
-        </section>
+      </section>
 
       <div className="ticks"></div>
 

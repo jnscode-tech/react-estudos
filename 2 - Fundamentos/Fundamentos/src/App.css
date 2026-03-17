@@ -182,11 +182,10 @@
     border-right-color: var(--border);
   }
 }
-
-.hello{
-  color: blue;
-  text-decoration: solid;
-  font-weight: bold;
-  font-size: 24px;
-
+.first{
+  color:rgb(105, 12, 105)
+}
+.p-first{
+  color: blueviolet;
+  background-color: rgb(218, 215, 216);
 }
