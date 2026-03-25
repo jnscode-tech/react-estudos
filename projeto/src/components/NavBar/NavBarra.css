@@ -1,0 +1,36 @@
+
+  .menu {
+    display: flex;
+    justify-content: space-between; /* separa logo e menu */
+    align-items: center;
+    background-color: #303047; /* cor vinho */
+    padding: 10px 20px;
+  }
+  
+  .imgLogo {
+    width: 60px;
+    height: auto;
+  }
+  
+  .logo img {
+    max-height: 60px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* espaço entre os itens */
+    margin: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #f5c6c6; /* efeito ao passar o mouse */
+  
+  }
